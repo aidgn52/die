@@ -156,8 +156,8 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 1")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://bbscdn.df.nexon.com/data7/commu/202212/133100_638ec584acd29.jpg", caption="Medium Segment Image 1")
+            st.video("https://youtu.be/0rHez6ZJhSw?feature=shared")
             st.text("당신의 캐릭터는 죽을 수도, 살 수도 있겠군요.")
 
         with col2:
@@ -176,7 +176,7 @@ if prediction!=0:
 
         with col1:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 1")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.video("https://youtu.be/SZwB8Omdan4?feature=shared")
             st.text("축하합니다. 당신의 캐릭터는 생존입니다.")
 
         with col2:

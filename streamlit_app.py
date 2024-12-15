@@ -156,12 +156,12 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://bbscdn.df.nexon.com/data7/commu/202212/133100_638ec584acd29.jpg/300", caption="흐음")
+            st.image("https://bbscdn.df.nexon.com/data7/commu/202212/133100_638ec584acd29.jpg", caption="흐음")
             st.video("https://youtu.be/0rHez6ZJhSw?feature=shared")
             st.text("당신의 캐릭터는 죽을 수도, 살 수도 있겠군요.")
 
         with col2:
-            st.image("https://i.namu.wiki/i/xMoydgRquVfJkb-GiReCKEAva4HxL53SgNNpPNm-D-86oe7bkVtF4_doUog-XOfN6vULJYspNq_F02QjZD4xHg.webp/300", caption="강인한 주먹")
+            st.image("https://i.namu.wiki/i/xMoydgRquVfJkb-GiReCKEAva4HxL53SgNNpPNm-D-86oe7bkVtF4_doUog-XOfN6vULJYspNq_F02QjZD4xHg.webp", caption="강인한 주먹")
             st.video("https://youtu.be/u45EdF2FT60?feature=shared")
             st.text("당신의 캐릭터를 살리기 위해서는 더 강인한 능력이 필요합니다.")
 

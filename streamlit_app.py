@@ -137,18 +137,18 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
+            st.image("https://lh6.googleusercontent.com/proxy/Ur79Huv6wufKXFhgh6dffvUVeaKwp0lky5-k7lmZ-Sa9qXlUCrvZZz_vde276Hj4XnX_jh5x3cCMvHYw8DuRRSxXt766404Ohc9BDiii/300", caption="이런...")
             st.video("https://youtu.be/nEJjydTh98E?feature=shared")  # YouTube 썸네일
             st.text("안타깝게도, 당신의 캐릭터는 죽을 운명입니다.")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 2")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://imgnn.seoul.co.kr/img/upload/2014/01/16/SSI_20140116150308.jpg/300", caption="물론 위험에 빠진다고 모두 죽는 건 아닙니다.")
+            st.video("https://youtu.be/Aig0mmkphJw?feature=shared")
             st.text("당신의 캐릭터의 생존을 위해 위험 상황 노출도를 낮추거나, 이야기 속 중요도를 높여보는 건 어떨까요?")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://pbs.twimg.com/media/Eu-DoPpVkAMB9A-.jpg/300", caption="I Love You 3000")
+            st.video("https://youtu.be/-V7qhn-SCmI?feature=shared")
             st.text("하지만 때로는 죽음이 캐릭터를 매력있게 만들어주기도 하죠.")
 
     elif 0.4 < prediction <= 0.6:
@@ -156,18 +156,18 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://bbscdn.df.nexon.com/data7/commu/202212/133100_638ec584acd29.jpg", caption="Medium Segment Image 1")
+            st.image("https://bbscdn.df.nexon.com/data7/commu/202212/133100_638ec584acd29.jpg/300", caption=""흐음"")
             st.video("https://youtu.be/0rHez6ZJhSw?feature=shared")
             st.text("당신의 캐릭터는 죽을 수도, 살 수도 있겠군요.")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 2")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://i.namu.wiki/i/xMoydgRquVfJkb-GiReCKEAva4HxL53SgNNpPNm-D-86oe7bkVtF4_doUog-XOfN6vULJYspNq_F02QjZD4xHg.webp/300", caption="강인한 주먹")
+            st.video("https://youtu.be/u45EdF2FT60?feature=shared")
             st.text("당신의 캐릭터를 살리기 위해서는 더 강인한 능력이 필요합니다.")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCYn45xhwQC83WqT-cmsZV42fHt5Bb-Byhg&s/300", caption="사망 플래그")
+            st.video("https://youtu.be/dAuk6ZEnha4?feature=shared")
             st.text("과한 용기가 때로는 죽음의 원인이 되기도 하죠.")
 
     else:
@@ -175,16 +175,16 @@ if prediction!=0:
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="High Segment Image 1")
+            st.image("https://i.pinimg.com/236x/45/23/d6/4523d6b191bcf328120ea8730a5fafa6.jpg/300", caption="갑자기 축하드려 많이 놀라셨죠?")
             st.video("https://youtu.be/SZwB8Omdan4?feature=shared")
             st.text("축하합니다. 당신의 캐릭터는 생존입니다.")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="High Segment Image 2")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://blog.kakaocdn.net/dn/bwXuFX/btrfoS1zzWP/igxKyICvKxEkkKNbE1KUy1/img.jpg/300", caption=".")
+            st.video("https://youtu.be/96ZYmBGgS3c?feature=shared")
             st.text("당신의 캐릭터가 계속 생존할 수 있도록 감정 조절 능력을 높은 상태로 유지하세요.")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="High Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+            st.image("https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/5Bf8/image/Op_SgQOdb4ZFcmQpNeFCxsGcs0o.png/300", caption="죽음 꽤 좋은 걸지도")
+            st.video("https://youtu.be/I4LVT9C6Sz4?feature=shared")
             st.text("하지만 때로는 죽음이 캐릭터를 매력있게 만들어주기도 합니다.")

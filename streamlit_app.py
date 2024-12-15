@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np  # numpy를 import해야 함
 
 # Streamlit 제목
-st.title("주택 가격 예측 서비스!")
+st.title("생존 확률 측정기")
 
 # GitHub Raw 파일 URL과 모델 유형
 GITHUB_RAW_URL = "https://github.com/aidgn52/die/raw/refs/heads/main/xgb_model.pkl"
@@ -132,38 +132,38 @@ if st.button("Predict"):
 
 # 예측 결과에 따라 콘텐츠 표시
 if prediction!=0:
-    if prediction <= 60000:
+    if prediction <= 0.4:
         st.write("### Prediction Result: Low Price Segment")
         col1, col2, col3 = st.columns(3)
 
         with col1:
             st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
-            st.text("Description for Low Segment 1")
+            st.text("안타깝게도, 당신의 캐릭터는 죽을 운명입니다.")
 
         with col2:
             st.image("https://via.placeholder.com/300", caption="Low Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 2")
+            st.text("당신의 캐릭터의 생존을 위해 위험 상황 노출도를 낮춰보는 건 어떨까요?")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="Low Segment Image 3")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
             st.text("Description for Low Segment 3")
 
-    elif 60000 < prediction <= 120000:
+    elif 0.4 < prediction <= 0.6:
         st.write("### Prediction Result: Medium Price Segment")
         col1, col2, col3 = st.columns(3)
 
         with col1:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 1")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 1")
+            st.text("죽을 수도, 살 수도 있겠군요.")
 
         with col2:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 2")
+            st.text("당신의 캐릭터를 살리기 위해서는 더 강인한 능력이 필요합니다.")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 3")
@@ -177,12 +177,12 @@ if prediction!=0:
         with col1:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 1")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 1")
+            st.text("축하합니다. 당신의 캐릭터는 생존입니다.")
 
         with col2:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 2")
+            st.text("당신의 캐릭터가 계속 생존할 수 있도록록 감정 조절 능력을 높은 상태로 유지하세요.")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 3")

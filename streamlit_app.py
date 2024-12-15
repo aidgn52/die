@@ -133,7 +133,7 @@ if st.button("Predict"):
 # 예측 결과에 따라 콘텐츠 표시
 if prediction!=0:
     if prediction <= 0.4:
-        st.write("### Prediction Result: Low Price Segment")
+        st.write("### 죽음")
         col1, col2, col3 = st.columns(3)
 
         with col1:
@@ -144,21 +144,21 @@ if prediction!=0:
         with col2:
             st.image("https://via.placeholder.com/300", caption="Low Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("당신의 캐릭터의 생존을 위해 위험 상황 노출도를 낮춰보는 건 어떨까요?")
+            st.text("당신의 캐릭터의 생존을 위해 위험 상황 노출도를 낮추거나, 이야기 속 중요도를 높여보는 건 어떨까요?")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="Low Segment Image 3")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 3")
+            st.text("하지만 때로는 죽음이 캐릭터를 매력있게 만들어주기도 하죠.")
 
     elif 0.4 < prediction <= 0.6:
-        st.write("### Prediction Result: Medium Price Segment")
+        st.write("### 생존? 죽음?")
         col1, col2, col3 = st.columns(3)
 
         with col1:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 1")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("죽을 수도, 살 수도 있겠군요.")
+            st.text("당신의 캐릭터는 죽을 수도, 살 수도 있겠군요.")
 
         with col2:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 2")
@@ -168,10 +168,10 @@ if prediction!=0:
         with col3:
             st.image("https://via.placeholder.com/300", caption="Medium Segment Image 3")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 3")
+            st.text("과한 용기가 때로는 죽음의 원인이 되기도 하죠.")
 
     else:
-        st.write("### Prediction Result: High Price Segment")
+        st.write("### 생존")
         col1, col2, col3 = st.columns(3)
 
         with col1:
@@ -182,9 +182,9 @@ if prediction!=0:
         with col2:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("당신의 캐릭터가 계속 생존할 수 있도록록 감정 조절 능력을 높은 상태로 유지하세요.")
+            st.text("당신의 캐릭터가 계속 생존할 수 있도록 감정 조절 능력을 높은 상태로 유지하세요.")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 3")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 3")
+            st.text("하지만 때로는 죽음이 캐릭터를 매력있게 만들어주기도 합니다.")
